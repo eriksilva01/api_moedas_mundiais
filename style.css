@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&display=swap');
+
+
+
+*{
+  
+    font-family: raleway;
+    margin: 0;
+
+
+    
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.container img{
+    width: 100%;
+    
+}
+div{
+    position: absolute;
+    width: 200px;
+    height: 4%;
+    font: 500;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-size: larger;
+    align-content:space-between;
+    display: block;
+    
+}
+
+#bitcoin{
+    position: absolute;
+    top: 12%;
+    right:17%;
+    transform: translate(-30%, 50%);
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    box-shadow: 11px 5px 20px -5px rgb(26, 26, 26);
+    
+    
+    
+    
+
+
+}
+#dolar{
+    position: absolute;
+    top: 36%;
+    right: 17%;
+    transform: translate(-30%, 50%);
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    box-shadow: 11px 5px 20px -5px rgb(26, 26, 26);
+   
+}
+#euro{
+    position: absolute;
+    top: 62%;
+    right: 17%;
+    transform: translate(-30%, 50%);
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    box-shadow: 11px 5px 20px -5px rgb(26, 26, 26);
+
+   
+}
+#libra{
+    position: absolute;
+    top: 86%;
+    right: 17%;
+    transform: translate(-30%, 50%);
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    box-shadow: 11px 5px 20px -5px rgb(26, 26, 26);
+
+}
+#botao{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 0;
+    left: -50;
+    transform: translate(65%, -350%);
+    text-align: center;
+    background-color: rgba(250, 242, 242, 0.5);
+    border-radius: 20px;
+    box-shadow: 11px 5px 20px -5px rgb(26, 26, 26);
+    font-weight: 700;
+    font-size: large;
+
+
+}
